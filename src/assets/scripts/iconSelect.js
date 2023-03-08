@@ -1,16 +1,15 @@
+import CLOUDMAX from '../../imgs/cloudmax.png'
+import CLOUDMIN from '../../imgs/cloudmin.png'
+import WIND from '../../imgs/wind.png'
+
 export default function iconSelect(title) {
     switch (title) {
-        case 'Indice UV':
-            return './src/imgs/uv.png'
-        case 'Humidade':
-            return './src/imgs/humidade.png'
         case 'Vento':
-            return './src/imgs/wind.png'
+            return WIND
         case 'Máxima':
-            return './src/imgs/cloudmax.png'
+            return CLOUDMAX
         case 'Mínima':
-            return './src/imgs/cloudmin.png'
-
+            return CLOUDMIN
 
         default:
             break;
